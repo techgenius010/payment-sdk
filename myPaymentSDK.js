@@ -10,7 +10,7 @@
                 accountName: config.accountName || '',
                 amount: config.amount || 0,
                 email: config.email || '',
-                metadata: config.metadata || {},
+                externalReference: config.externalReference || {},
                 callbackurl: config.callbackurl || '',
                 webhookurl: config.webhookurl || '',
                 apiUrl: 'https://payfam.com.ng/api/initiate-transaction/',
@@ -43,7 +43,7 @@
                         accountName: this.config.accountName,
                         amount: this.config.amount,
                         email: this.config.email,
-                        metadata: this.config.metadata,
+                        externalReference: this.config.externalReference,
                         callbackurl: this.config.callbackurl,
                         webhookurl: this.config.webhookurl
                     })
